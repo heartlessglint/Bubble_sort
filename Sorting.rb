@@ -1,6 +1,6 @@
 require 'benchmark'
 
-def bubble_sort (arr) #Currently taking 5-6 seconds to complete an array of 10. 
+def bubble_sort (arr) #Improved to less then 1 second for same array
     changes = true
     completed = 0
     length = arr.length - 1
